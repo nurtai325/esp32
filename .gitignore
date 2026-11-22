@@ -1,0 +1,30 @@
+# ESP-IDF build artifacts
+build/
+build-*/
+
+# ESP-IDF generated files
+sdkconfig
+sdkconfig.old
+sdkconfig.*.old
+dependencies.lock
+managed_components/
+
+# ESP-IDF runtime / IDE
+*.bin
+*.elf
+*.map
+.flash_args
+flasher_args.json
+partition_table/
+bootloader/
+flash_project_args
+project_description.json
+compile_commands.json
+.vscode/
+.idea/
+*.swp
+*.kdev4
+
+# OS noise
+.DS_Store
+Thumbs.db
